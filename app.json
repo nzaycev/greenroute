@@ -1,11 +1,17 @@
 {
   "expo": {
+    "plugins": [
+      // "@react-native-mapbox-gl/maps"
+    ],
     "name": "hakaton",
     "slug": "hakaton",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "com.test"
+    }
   },
   "name": "hakaton"
 }

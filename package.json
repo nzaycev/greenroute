@@ -7,7 +7,14 @@
     "start": "react-native start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-mapbox-gl/maps": "^8.3.0",
+    "axios": "^0.21.4",
     "expo": "~42.0.1",
+    "expo-fontawesome": "^0.1.2",
+    "expo-location": "~12.1.2",
     "expo-splash-screen": "~0.11.2",
     "expo-status-bar": "~1.0.4",
     "expo-updates": "~0.8.1",
@@ -15,13 +22,19 @@
     "react-dom": "16.13.1",
     "react-native": "~0.63.4",
     "react-native-gesture-handler": "~1.10.2",
+    "react-native-maps": "0.28.0",
     "react-native-reanimated": "~2.2.0",
     "react-native-screens": "~3.4.0",
     "react-native-unimodules": "0.14.10",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "reanimated-bottom-sheet": "^1.0.0-alpha.22",
+    "rn-sliding-up-panel": "^2.4.5",
+    "tslib": "^2.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
   },
-  "private": true
+  "private": true,
+  "name": "hakaton",
+  "version": "1.0.0"
 }
